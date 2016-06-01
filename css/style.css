@@ -1,0 +1,43 @@
+/*=============================================
+  ____  _____ _______        _     _           
+ |  _ \|  __ \__   __|      | |   (_)          
+ | |_) | |  | | | | ___  ___| |__  _  ___  ___ 
+ |  _ <| |  | | | |/ _ \/ __| '_ \| |/ _ \/ __|
+ | |_) | |__| | | |  __/ (__| | | | |  __/\__ \
+ |____/|_____/  |_|\___|\___|_| |_|_|\___||___/
+ 
+ !------- We Convert IDEAS into REALITY ------!
+
+ =============================================*/
+
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+
+.landing {
+	background: url(../img/bg.png) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	text-align: center;
+}
+
+.landing p {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 2.5em;
+	color: #fff;
+text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
